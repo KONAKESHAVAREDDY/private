@@ -1,6 +1,6 @@
 ---
-ref: public
-name: public
+ref: private
+name: private
 description: Ticket Integration Pack
 keywords:
   - public
