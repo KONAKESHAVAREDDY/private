@@ -1,1 +1,13 @@
+---
+name: "newrule"
+description: "service now ticket"
+enabled: false
 
+trigger:
+  type: "core.st2.IntervalTimer"
+  parameters:
+    delta: 5
+    unit: minutes
+
+action:
+  ref: "private.post"
